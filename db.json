@@ -1,9 +1,111 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up?",
+        "how is it going",
+        "how are you doing"
+      ],
+      "responses": [
+        "hello",
+        "hey!",
+        "what can I do for you?",
+        "what's up?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you later",
+        "goodbye",
+        "have a good day",
+        "bye",
+        "cao",
+        "see ya"
+      ],
+      "responses": [
+        "have a nice day",
+        "goodbye"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old are you?",
+        "what is your age",
+        "how old are you",
+        "age?"
+      ],
+      "responses": [
+        "I get reborn after every compilation",
+        "hey!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "what's your name?",
+        "who are you?",
+        "can you tell me your name"
+      ],
+      "responses": [
+        "you can call me Sam!",
+        "I am Sam!",
+        "I am Sam, your medical assistant"
+      ]
+    },
+    {
+      "tag": "fitness",
+      "patterns": [
+        "how can I improve my fitness",
+        "what exercises should I do",
+        "how to stay healthy",
+        "what's the best way to get fit",
+        "fitness tips",
+        "What can I do to enhance my physical fitness?",
+        "Can you recommend any exercises to improve my overall fitness?",
+        "What are some lifestyle changes I can make to maintain good health?",
+        "What are some effective ways to increase my fitness level?",
+        "Do you have any advice or tips for improving my fitness?"
+      ],
+      "responses": [
+        "You can do the following: Include 30 minutes of cardiovascular activity most days. Cardiovascular activity is an essential part of any plan to improve physical fitness. Exercising for 150 minutes per week (or 30 minutes five days per week) is recommended, so try to make this amount of activity part of your schedule. As an alternative, you may do 75 minutes of vigorous cardiovascular activity. For example, you could do 15 minutes of kickboxing, stair climbing, or running five days out of every week. Keep in mind that exercising for longer is better. If you can fit in 300 minutes of moderate aerobic activity each week, then you will gain more health benefits than if you exercise for 150 minutes per week.",
+        "You can go for short walks around your neighborhood, sprint through 10-mile bike rides, or sweat it out at the gym.",
+        "You can add strength training. Strength training is also essential for physical fitness, but you only need to do two strength training workouts each week. Make sure that these two workouts target all of your major muscle groups, including your abs, arms, back, chest, hips, legs, and shoulders. Both workout groups don't have to focus on all muscle groups at once. For example, one workout can focus on your arms, back, chest, and shoulders. The other workout can focus on your abs, hips, and legs.",
+        "You can take a class. Exercise classes provide a good workout and a social outlet as well. Group exercise classes may also help you to stay motivated more than working out on your own. Try taking an exercise class such as: Spinning, Zumba, Step, Yoga, Tai chi, Pilates",
+        "Find little ways to move more. Adding more small bursts of physical activity into your day may also help to improve your physical fitness levels. Even if you only have a few minutes, you can take advantage of this time and get a little extra physical activity into your day. For example, you could do some sit-ups during a commercial break, park your car further away from the entrance at the grocery store, or take the stairs instead of the elevator. All of these little changes will help to improve your cardiovascular health and build your strength.",
+        "Set goals. Having a fitness goal or a series of little goals that you are working towards will help you to stay focused and may even help to keep you motivated. Make sure that you set goals that are SMART (specific, measurable, action-oriented, realistic, and time-based). For example, if you want to exercise every day, you might set your goal as something like, 'I will go for a brisk 30-minute walk every morning this week.'",
+        "Start small. Although it is rare, jumping right into vigorous exercise after being sedentary for a long time can increase your risk of having a heart attack; therefore, it is best to go slow and start with something less intense, such as walking, swimming, or biking. Starting slow will also help to reduce your chances of getting injured, which can put a hold on your fitness efforts. After a while, you can increase your activity intensity and duration, such as from walking to jogging, or biking on a flat surface to biking on a somewhat hilly surface, or swimming for 45 minutes instead of 30 minutes. Starting with small, more easily-achieved goals helps people stick with their plans. Drastic changes are harder to stick with — find something that you enjoy and seems doable.",
+        "Consider working with a personal trainer. If you have a hard time staying motivated or if you just are not sure where to start, a trainer can help you. Working with a trainer can give your fitness efforts a good jump start and working with a trainer may also make it easier to stick with your program. A personal trainer can also teach you some effective workout strategies to keep you interested and seeing results. Some personal trainers will also provide you with meal plan ideas and advice about how to maximize your results."
+      ]
+    },
+    {
+      "tag": "diet",
+      "patterns": [
+        "what is the best diet",
+        "how can I lose weight",
+        "how to stay healthy",
+        "Can you recommend a specific diet for weight loss?",
+        "What are some healthy ways to lose weight?",
+        "What should I eat to maintain a healthy diet?",
+        "Are there any diets that are particularly good for improving heart health?"
+      ],
+      "responses": [
+        "The Mediterranean-DASH Intervention for Neurodegenerative Delay (MIND) diet combines aspects of the Mediterranean and DASH diets to create an eating pattern that focuses on brain health. How it works: Like the flexitarian diet, the MIND diet does not have a strict meal plan, but instead encourages eating 10 specific foods with brain health benefits. Per week, MIND includes eating:- six or more servings of green, leafy vegetables - one serving of non-starchy vegetables - five or more servings of nuts - berries - beans - olive oil - whole grains - fish - poultry. Health benefits: Research shows that the MIND diet may reduce a person's risk of developing Alzheimer's disease, and studies show that the MIND diet is superior to other plant-rich diets for improving cognition. Research also shows that the MIND diet can help slow cognitive decline and improve resiliency in older adults. It may also help delay the onset of the movement disorder Parkinson's disease. However, more research needs to be done concerning the MIND diet and weight loss. Other benefits: By combining the best of two diets, the MIND diet has a lot to offer and offers some more flexibility than stricter diets. While you can eat more than the 10 food groups it recommends, the closer you stick to the diet, the better your results may be. Summary: The MIND diet combines aspects of the Mediterranean and DASH diets and may help reduce your risk of Alzheimer's disease and dementia. However, more research needs to be done to evaluate its ability to help you lose weight.",
+        "Vegetarianism and veganism are the most popular versions of plant-based diets, which restrict animal products for health, ethical, and environmental reasons. However, more flexible plant-based diets also exist, such as the flexitarian diet. This is a plant-based diet that allows eating animal products in moderation.",
+        "Dietary Approaches to Stop Hypertension, or DASH, is an eating plan designed to help treat or prevent high blood pressure, which is clinically known as hypertension. It emphasizes eating plenty of fruits, vegetables, whole grains, and lean meats. It is low in salt, red meat, added sugars, and fat. While the DASH diet is not a weight loss diet, many people report losing weight on it.",
+        "The Mediterranean diet has long been considered the gold standard for nutrition, disease prevention, wellness, and longevity. This is based on its nutrition benefits and sustainability. How it works: The Mediterranean diet is based on foods that people in countries like Italy and Greece have traditionally eaten. It is rich in vegetables, fruits, whole grains, fish, nuts, lentils, and olive oil. Foods such as poultry, eggs, and dairy products are to be eaten in moderation, and red meats are limited. Additionally, the Mediterranean diet limits refined grains, trans fat, processed meat, added sugar, and other highly processed foods. Health benefits: This diet’s emphasis on minimally processed foods and plants has been associated with a reduced risk of multiple chronic diseases and increased life expectancy. Studies also show that the Mediterranean diet has a preventive effect against certain cancers. Though the diet was designed to lower heart disease risk, numerous studies indicate that its plant-based, high unsaturated fat dietary pattern can also aid in weight loss. A systematic review analyzing five different studies found that, compared with a low-fat diet, the Mediterranean diet resulted in greater weight loss after 1 year. Compared with a low-carb diet, it produced similar weight loss results. One study in more than 500 adults over 12 months found that higher adherence to a Mediterranean diet was associated with double the likelihood of weight loss maintenance. Additionally, the Mediterranean diet encourages eating plenty of antioxidant-rich foods, which may help combat inflammation and oxidative stress by neutralizing free radicals. Other benefits: Recent studies have also found that the Mediterranean diet is associated with decreased risk of mental disorders, including cognitive decline and depression. Eating less meat is also associated with a more sustainable diet for the planet. Downside: Since the Mediterranean diet does not put a big emphasis on dairy products, it’s important to make sure you still get enough calcium and vitamin D in your diet. Summary: The Mediterranean diet emphasizes eating plenty of fruits, vegetables, fish, and healthy oils while restricting refined and highly processed foods. While it’s not a weight loss diet, studies show that it can promote weight loss and overall health."
+      ]
+    }
+  ]
 }
