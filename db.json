@@ -1,121 +1,121 @@
 {
   "intents": [
-  {
-  "tag": "greetings",
-  "patterns": [
-  "hello",
-  "hey",
-  "hi",
-  "good day",
-  "greetings",
-  "what's up?"
-  ],
-  "responses": [
-  "hello",
-  "hey!",
-  "what can I do for you?",
-  "what's up?"
-  ]
-  },
-  {
-  "tag": "goodbye",
-  "patterns": [
-  "cya",
-  "see you later",
-  "goodbye",
-  "have a good day",
-  "bye",
-  "cao",
-  "see ya"
-  ],
-  "responses": [
-  "have a nice day",
-  "goodbye"
-  ]
-  },
-  {
-  "tag": "appreciation",
-  "patterns": [
-  "thanks",
-  "thanks for the advice",
-  "thank you",
-  "i appreciate your help"
-  ],
-  "responses": [
-  "any time",
-  "you are welcome"
-  ]
-  },
-  {
-  "tag": "situation",
-  "patterns": [
-  "how are you?",
-  "how you doing",
-  "how is it going",
-  "how are you doing"
-  ],
-  "responses": [
-  "I am fine",
-  "i am good"
-  ]
-  },
-  {
-  "tag": "age",
-  "patterns": [
-  "how old",
-  "how old are you?",
-  "what is your age",
-  "how old are you",
-  "age?"
-  ],
-  "responses": [
-  "انت عبيط؟",
-  "الي تشوفو",
-  " بطلو عبط بقا "
-  ]
-  },
-  {
-  "tag": "name",
-  "patterns": [
-  "what is your name",
-  "what should I call you",
-  "what's your name?",
-  "who are you?",
-  "can you tell me your name"
-  ],
-  "responses": [
-  "you can call me medbot!",
-  "I am medbot!",
-  "I am medbot, your medical assistant"
-  ]
-  },
-  {
-  "tag": "fitness",
-  "patterns": [
-  "how can I improve my fitness",
-  "what exercises should I do",
-  "how to stay healthy",
-  "what's the best way to get fit",
-  "fitness tips",
-  "What can I do to enhance my physical fitness?",
-  "Can you recommend any exercises to improve my overall fitness?",
-  "What are some lifestyle changes I can make to maintain good health?",
-  "What are some effective ways to increase my fitness level?",
-  "Do you have any advice or tips for improving my fitness?"
-  ],
-  "responses": [
-  "Exercise regularly: Aim for at least 150 minutes of moderate-intensity aerobic exercise or 75 minutes of vigorous-intensity aerobic exercise per week, along with muscle-strengthening activities at least two days per week. Find activities that you enjoy, such as running, swimming, dancing, or weightlifting.",
-  "Incorporate high-intensity interval training (HIIT): HIIT involves short bursts of intense exercise followed by brief periods of rest or active recovery. It can help you burn more calories and improve your cardiovascular fitness in less time than traditional steady-state cardio.",
-  "Stretch regularly: Stretching can improve your flexibility, range of motion, and help prevent injury. Try incorporating a stretching routine before and after your workouts.",
-  "Find an accountability partner: Having a workout buddy or partner can help keep you motivated and accountable. Consider joining a fitness class or finding a workout partner to help keep you on track.",
-  "You can do the following: Include 30 minutes of cardiovascular activity most days. Cardiovascular activity is an essential part of any plan to improve physical fitness. Exercising for 150 minutes per week (or 30 minutes five days per week) is recommended, so try to make this amount of activity part of your schedule. As an alternative, you may do 75 minutes of vigorous cardiovascular activity. For example, you could do 15 minutes of kickboxing, stair climbing, or running five days out of every week. Keep in mind that exercising for longer is better. If you can fit in 300 minutes of moderate aerobic activity each week, then you will gain more health benefits than if you exercise for 150 minutes per week.",
-  "You can go for short walks around your neighborhood, sprint through 10-mile bike rides, or sweat it out at the gym.",
-  "You can add strength training. Strength training is also essential for physical fitness, but you only need to do two strength training workouts each week. Make sure that these two workouts target all of your major muscle groups, including your abs, arms, back, chest, hips, legs, and shoulders. Both workout groups don't have to focus on all muscle groups at once. For example, one workout can focus on your arms, back, chest, and shoulders. The other workout can focus on your abs, hips, and legs.",
-  "You can take a class. Exercise classes provide a good workout and a social outlet as well. Group exercise classes may also help you to stay motivated more than working out on your own. Try taking an exercise class such as: Spinning, Zumba, Step, Yoga, Tai chi, Pilates",
-  "Find little ways to move more. Adding more small bursts of physical activity into your day may also help to improve your physical fitness levels. Even if you only have a few minutes, you can take advantage of this time and get a little extra physical activity into your day. For example, you could do some sit-ups during a commercial break, park your car further away from the entrance at the grocery store, or take the stairs instead of the elevator. All of these little changes will help to improve your cardiovascular health and build your strength.",
-  "Set goals. Having a fitness goal or a series of little goals that you are working towards will help you to stay focused and may even help to keep you motivated. Make sure that you set goals that are SMART (specific, measurable, action-oriented, realistic, and time-based). For example, if you want to exercise every day, you might set your goal as something like, 'I will go for a brisk 30-minute walk every morning this week.'",
-  "Start small. Although it is rare, jumping right into vigorous exercise after being sedentary for a long time can increase your risk of having a heart attack; therefore, it is best to go slow and start with something less intense, such as walking, swimming, or biking. Starting slow will also help to reduce your chances of getting injured, which can put a hold on your fitness efforts. After a while, you can increase your activity intensity and duration, such as from walking to jogging, or biking on a flat surface to biking on a somewhat hilly surface, or swimming for 45 minutes instead of 30 minutes. Starting with small, more easily-achieved goals helps people stick with their plans. Drastic changes are harder to stick with — find something that you enjoy and seems doable.",
-  "Consider working with a personal trainer. If you have a hard time staying motivated or if you just are not sure where to start, a trainer can help you. Working with a trainer can give your fitness"
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up?"
+      ],
+      "responses": [
+        "hello",
+        "hey!",
+        "what can I do for you?",
+        "what's up?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you later",
+        "goodbye",
+        "have a good day",
+        "bye",
+        "cao",
+        "see ya"
+      ],
+      "responses": [
+        "have a nice day",
+        "goodbye"
+      ]
+    },
+    {
+      "tag": "appreciation",
+      "patterns": [
+        "thanks",
+        "thanks for the advice",
+        "thank you",
+        "i appreciate your help"
+      ],
+      "responses": [
+        "any time",
+        "you are welcome"
+      ]
+    },
+    {
+      "tag": "situation",
+      "patterns": [
+        "how are you?",
+        "how you doing",
+        "how is it going",
+        "how are you doing"
+      ],
+      "responses": [
+        "I am fine",
+        "i am good"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old are you?",
+        "what is your age",
+        "how old are you",
+        "age?"
+      ],
+      "responses": [
+        "انت عبيط؟",
+        "الي تشوفو",
+        " بطلو عبط بقا "
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "what's your name?",
+        "who are you?",
+        "can you tell me your name"
+      ],
+      "responses": [
+        "you can call me medbot!",
+        "I am medbot!",
+        "I am medbot, your medical assistant"
+      ]
+    },
+    {
+      "tag": "fitness",
+      "patterns": [
+        "how can I improve my fitness",
+        "what exercises should I do",
+        "how to stay healthy",
+        "what's the best way to get fit",
+        "fitness tips",
+        "What can I do to enhance my physical fitness?",
+        "Can you recommend any exercises to improve my overall fitness?",
+        "What are some lifestyle changes I can make to maintain good health?",
+        "What are some effective ways to increase my fitness level?",
+        "Do you have any advice or tips for improving my fitness?"
+      ],
+      "responses": [
+        "Exercise regularly: Aim for at least 150 minutes of moderate-intensity aerobic exercise or 75 minutes of vigorous-intensity aerobic exercise per week, along with muscle-strengthening activities at least two days per week. Find activities that you enjoy, such as running, swimming, dancing, or weightlifting",
+        "Incorporate high-intensity interval training (HIIT): HIIT involves short bursts of intense exercise followed by brief periods of rest or active recovery. It can help you burn more calories and improve your cardiovascular fitness in less time than traditional steady-state cardio.",
+        "Stretch regularly: Stretching can improve your flexibility, range of motion, and help prevent injury. Try incorporating a stretching routine before and after your workouts.",
+        "Find an accountability partner: Having a workout buddy or partner can help keep you motivated and accountable. Consider joining a fitness class or finding a workout partner to help keep you on track.",
+        "You can do the following: Include 30 minutes of cardiovascular activity most days. Cardiovascular activity is an essential part of any plan to improve physical fitness. Exercising for 150 minutes per week (or 30 minutes five days per week) is recommended, so try to make this amount of activity part of your schedule. As an alternative, you may do 75 minutes of vigorous cardiovascular activity. For example, you could do 15 minutes of kickboxing, stair climbing, or running five days out of every week. Keep in mind that exercising for longer is better. If you can fit in 300 minutes of moderate aerobic activity each week, then you will gain more health benefits than if you exercise for 150 minutes per week.",
+        "You can go for short walks around your neighborhood, sprint through 10-mile bike rides, or sweat it out at the gym.",
+        "You can add strength training. Strength training is also essential for physical fitness, but you only need to do two strength training workouts each week. Make sure that these two workouts target all of your major muscle groups, including your abs, arms, back, chest, hips, legs, and shoulders. Both workout groups don't have to focus on all muscle groups at once. For example, one workout can focus on your arms, back, chest, and shoulders. The other workout can focus on your abs, hips, and legs.",
+        "You can take a class. Exercise classes provide a good workout and a social outlet as well. Group exercise classes may also help you to stay motivated more than working out on your own. Try taking an exercise class such as: Spinning, Zumba, Step, Yoga, Tai chi, Pilates",
+        "Find little ways to move more. Adding more small bursts of physical activity into your day may also help to improve your physical fitness levels. Even if you only have a few minutes, you can take advantage of this time and get a little extra physical activity into your day. For example, you could do some sit-ups during a commercial break, park your car further away from the entrance at the grocery store, or take the stairs instead of the elevator. All of these little changes will help to improve your cardiovascular health and build your strength.",
+        "Set goals. Having a fitness goal or a series of little goals that you are working towards will help you to stay focused and may even help to keep you motivated. Make sure that you set goals that are SMART (specific, measurable, action-oriented, realistic, and time-based). For example, if you want to exercise every day, you might set your goal as something like, 'I will go for a brisk 30-minute walk every morning this week.'",
+        "Start small. Although it is rare, jumping right into vigorous exercise after being sedentary for a long time can increase your risk of having a heart attack; therefore, it is best to go slow and start with something less intense, such as walking, swimming, or biking. Starting slow will also help to reduce your chances of getting injured, which can put a hold on your fitness efforts. After a while, you can increase your activity intensity and duration, such as from walking to jogging, or biking on a flat surface to biking on a somewhat hilly surface, or swimming for 45 minutes instead of 30 minutes. Starting with small, more easily-achieved goals helps people stick with their plans. Drastic changes are harder to stick with — find something that you enjoy and seems doable.",
+        "Consider working with a personal trainer. If you have a hard time staying motivated or if you just are not sure where to start, a trainer can help you. Working with a trainer can give your fitness efforts a good jump start and working with a trainer may also make it easier to stick with your program. A personal trainer can also teach you some effective workout strategies to keep you interested and seeing results. Some personal trainers will also provide you with meal plan ideas and advice about how to maximize your results."
       ]
     },
     {
